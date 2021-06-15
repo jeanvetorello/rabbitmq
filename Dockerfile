@@ -1,3 +1,3 @@
-FROM rabbitmq:3.7.8-management
+FROM rabbitmq:3.8.17-management-alpine
 
 ADD config/ /etc/rabbitmq/
